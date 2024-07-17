@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ConsoleApp1\FoodDeliveryClient.csproj" />
+    <ProjectReference Include="..\FoodDeliveryData\FoodDeliveryData.csproj" />
+    <ProjectReference Include="..\FoodDeliveryModels\FoodDeliveryModels.csproj" />
+    <ProjectReference Include="..\FoodDeliveryServices\FoodDeliveryServices.csproj" />
+  </ItemGroup>
+
+</Project>
